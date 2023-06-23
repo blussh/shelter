@@ -1,4 +1,4 @@
-/*Главная страница*/
+/*main page*/
 .header {
 	padding: 30px; 
     text-align: center; 
@@ -167,7 +167,7 @@
 	font-size: 26px;
 }
 
-/*Второе меню*/
+/*second menu*/
 
 .headerMenuSecond {
 	width: 76%;
@@ -201,7 +201,7 @@
 	color: black;
 }
 
-/*Вторая страница*/
+/*How to help*/
 
 .help {
 	border: 2px solid #86ca61;
@@ -224,7 +224,7 @@
 	margin-left: 4%;
 }
 
-/*Третья страница*/
+/*Our animals*/
 
 .RowOurAnimals {
 	display: inline-flex;
@@ -263,7 +263,7 @@
 	box-shadow: 2px 2px 6px #86ca61, -2px -2px 6px #86ca61;
 }
 
-/*Третья страница*/
+/*Volunteer*/
 
 .volunteerPhoto2 {
 	z-index: 2;
@@ -380,7 +380,7 @@
 	color: #575757;
 }
 
-/*Четвертая страница*/
+/*Animal's profile*/
 
 .animalCard {
 	margin-left: 30%;
@@ -413,7 +413,7 @@
 	font-family: Lato Regular;
 }
 
-/*Пятая страница*/
+/*Contacts*/
 
 .contactsInfoText {
 	font-size: 40px;
@@ -451,7 +451,7 @@
 	color: #575757;
 }
 
-/*Шестая страница*/
+/*Blog*/
 
 .blogHeader {
 	font-family: Lato Regular;
@@ -539,7 +539,7 @@
 }
 */
 
-/*Футер*/
+/*footer*/
 
 .footer {
 	margin-top: 10px;
