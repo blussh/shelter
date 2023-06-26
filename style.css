@@ -1,10 +1,5 @@
 /*main page*/
-.header {
-	padding: 30px; 
-    text-align: center; 
-    background: white; 
-    color: black;
-}
+
 
 .header h1 {
 	font-size:40px;
@@ -15,24 +10,33 @@
   	height: 97px;
   	border-radius: 50%;
   	border: 0;
+  	
 }
 
-.mainLogo {
-	width: 97px;
-  	height: 97px;
-  	border-radius: 50%;
-  	border: 0;
-  	position: static;
+
+
+
+@media screen and (max-width: 700px) {
+    .mainHead {
+        flex-direction: column;
+    }
 }
 
-.logoIconsVk {
-	width: 25px;
-  	height: 25px;
-  	border-radius: 50%;
-  	border: 0;
-  	margin: 5px;
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
 }
 
+/*
+w 360
+h 640
+*/
+
+
+
+/*
 .logoIconsTelegram {
 	width: 25px;
   	height: 25px;
@@ -40,33 +44,63 @@
   	border: 0;
   	margin: 5px;
 } 
-
-.infoText {
-	position: absolute;
-	top: 6%;
-	left: 23%;
-	font-family: Lato Regular;
-}
-
-.logoHeader {
-	position: absolute;
-	top: 16%;
-	left: 26%;
-  	display: inline-block;
-}
+*/
 
 .mainHead {
 	box-shadow: 0px 1px gray, 0px -1px lightgray;
-	margin-bottom: 30px;
+	display: inline-flex;
+	width: 100%;
+}
+
+.mainHeadLeftGroup {
+	text-align: center;
+	float: right;
+	display: block;
+	width: 20%;
+	font-family: Lato Regular;	
+	margin-left: 25%;
+	line-height: 5px;
+	display: flex;
+	justify-content: center; /*horizontal centering*/
+    align-items: center;  /*vertical centering*/
+}	
+
+.logoIconsVk {
+	width: 25px;
+  	height: 25px;
+  	border-radius: 50%;
+  	margin-top: -5px;
+}
+
+.header {
+    text-align: center; 
+    background: white; 
+    color: black;
+    width: 10%;
+    padding: 2%;
+    margin: auto;
+}
+
+.mainLogo {
+	width: 100px;
+  	height: 100px;
+  	border-radius: 50%;
+  	border: 0;
+
 }
 
 .infoTextLocation {
-	position: absolute;
-	top: 6%;
-	right: 15%;
 	font-family: Lato Regular;
 	text-align: center;
+	width: 20%;
+	margin-right: 25%;
+	line-height: 5px;
+	display: flex;
+	justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;  
 }
+
+
 
 .adressLink {
 	color: black;
@@ -74,6 +108,7 @@
 
 .navigationBar {
 	text-align: center;
+
 }
 
 .btn {
@@ -90,6 +125,7 @@
 .btn:hover {
 	opacity: 50%;
 	color: red;
+	transform: scale(1.05);
 }
 
 .centerImg {
@@ -524,20 +560,6 @@
 }
 
 
-/*
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
-*/
 
 /*footer*/
 
